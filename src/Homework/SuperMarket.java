@@ -18,7 +18,7 @@ public class SuperMarket {
     //wordt dus eigenlijk enkel in deze class gebruikt
     //is void omdat we verder niks returnen
     private void buyItem (Product product, int amount){
-        if (amount < product.getAmount()){
+        if (amount <= product.getAmount()){
             System.out.println("You bought " + amount +" "+product.getName() + " for " + product.getPrice()*amount + " euro");
         } else {
             System.out.println("You cannot buy "+amount+" "+product.getName()+" , we only have "+product.getAmount() + " "+product.getName()+ " in stock");
