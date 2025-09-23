@@ -1,0 +1,5 @@
+# Negeer alles in de 'src' map
+/src/*
+
+# Behalve de 'Homework' map in 'src'
+!/src/Homework/
